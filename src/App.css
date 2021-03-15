@@ -1,0 +1,29 @@
+body {
+  background-color: rgba(95, 158, 160, 0.5);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(95, 158, 160, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: cadetblue;
+  border-radius: 20px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.label-heading {
+  font-size: 60px;
+  font-family: "Rock Salt", cursive;
+}
